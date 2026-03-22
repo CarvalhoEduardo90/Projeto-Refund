@@ -7,6 +7,15 @@
 :root {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+
+  /* Variaveis de cor */
+  --primary-color: #1f8459;
+  --primary-color-hover: #2cb178;
+  --background-color: #e4ece9;
+  --form-background-color: #f9fbfa;
+  --text-color: #1f2523;
+  --text-secondary-color: #4d5c57;
+  --border-color: #cdd5d2;
 }
 
 ::-webkit-scrollbar {
@@ -19,6 +28,7 @@
 
 ::-webkit-scrollbar-thumb {
   background: #e4ece9;
+
 }
 
 body {
@@ -26,6 +36,7 @@ body {
   height: 100vh;
 
   background-color: #e4ece9;
+
 
   display: flex;
   flex-direction: column;
@@ -266,6 +277,7 @@ aside ul {
   opacity: 0.7;
 }
 
+/* Responsividade */
 @media (min-width: 1100px) {
   form {
     max-height: 428px;
@@ -277,6 +289,9 @@ aside ul {
     font-size: 14px;
   }
 
+  .logo {
+    margin-left: 1.5rem;
+  }
   main,
   aside {
     min-width: 100%;
